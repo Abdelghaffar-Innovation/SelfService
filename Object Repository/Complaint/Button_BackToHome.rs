@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_BackToHome</name>
+   <tag></tag>
+   <elementGuidId>6d07e3af-258d-4aea-abcb-53b4095babfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-gosn6sjgn > span.dga-btn-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'الرجوع للرئيسية' or . = 'الرجوع للرئيسية')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5ca85d59-e8bf-4ec6-b9e1-48e51510c762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dga-btn-label</value>
+      <webElementGuid>bd7b9aae-33b2-479a-a1fb-1814096e922c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الرجوع للرئيسية</value>
+      <webElementGuid>fd82d93a-752e-492f-9a90-f16d4dbf861f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@id=&quot;btn-gosn6sjgn&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
+      <webElementGuid>86efac6d-98ea-4352-ad95-04f7eded56ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btn-gosn6sjgn']/span</value>
+      <webElementGuid>038692dd-cb8f-473f-a921-c56781445fb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الرجوع للرئيسية']/parent::*</value>
+      <webElementGuid>ce2c4180-e94b-47c0-adea-287829fef7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'الرجوع للرئيسية' or . = 'الرجوع للرئيسية')]</value>
+      <webElementGuid>4c13f9f3-4d02-428f-885e-1a15aae2092d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
