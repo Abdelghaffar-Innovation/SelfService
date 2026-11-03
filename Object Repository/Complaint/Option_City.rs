@@ -7,11 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'الرياض' or . = 'الرياض')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'الرياض' or . = 'الرياض')]</value>
+         <value>//div[@role='option']//span[normalize-space()='الدوادمي']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8c82a47f-1f10-4c1d-846f-374036fdf4a5</webElementGuid>
+      <webElementGuid>435582ec-b6a0-4d40-b1db-87aee2d081c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-krNkEb eYCZWz dropdown__option-label</value>
-      <webElementGuid>c8c900bc-2479-4131-a14b-8f08dd1c1f5f</webElementGuid>
+      <webElementGuid>d47c1c0c-4642-4ce0-bc76-8797cdba6592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>الرياض</value>
-      <webElementGuid>28ae5a4f-293e-4d34-8dca-8f0b2483ea37</webElementGuid>
+      <webElementGuid>9dc93bfc-52a3-4293-aaef-572b82c0642e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;headlessui-listbox-option-:r8m:&quot;)/span[@class=&quot;sc-krNkEb eYCZWz dropdown__option-label&quot;]</value>
-      <webElementGuid>b9dd7212-dd5d-417b-bb64-cb3ef62103ad</webElementGuid>
+      <webElementGuid>05c9fb54-d496-41a2-b34d-a5fb10206708</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='headlessui-listbox-option-:r8m:']/span</value>
-      <webElementGuid>c699ff44-290f-468e-94d0-ec4d5185a69f</webElementGuid>
+      <webElementGuid>e8304fb0-9ed5-4a3b-8b06-667e6d6109e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='الدوادمي'])[1]/following::span[1]</value>
-      <webElementGuid>f65a1dde-93b2-4dd1-8b36-3e835f9fcf41</webElementGuid>
+      <webElementGuid>382f68ad-2db5-4d70-a6e3-969618bb4894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='اختر المدينة'])[1]/following::span[2]</value>
-      <webElementGuid>f0d1925b-8d4c-487f-ab08-d659b90896e8</webElementGuid>
+      <webElementGuid>3248c606-0f45-413c-986a-403e37e63dcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::span[1]</value>
-      <webElementGuid>bfff01e8-cd8d-434c-8c50-aa02a6435f5f</webElementGuid>
+      <webElementGuid>3d98f81c-0717-4f46-afb5-bfa21741101e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span</value>
-      <webElementGuid>7aa5dfe5-916a-4b04-a120-d596a767fb1d</webElementGuid>
+      <webElementGuid>8683c6e3-3718-4597-8d22-b182295e7ebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'الرياض' or . = 'الرياض')]</value>
-      <webElementGuid>9add7b56-93fa-4864-924f-81ce3af855c9</webElementGuid>
+      <webElementGuid>acff21d6-dcb1-4053-8082-348fadabb14e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

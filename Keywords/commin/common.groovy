@@ -94,4 +94,70 @@ public class common {
 		}
 		assert clicked : "Button with text not found: " + text
 	}
-}
+	@Keyword
+	def clickAnyText(String text) {
+		String js = '''
+            const target = arguments[0];
+            function find(root) {
+                for (const el of root.querySelectorAll('*')) {
+                    if (el.children.length === 0 &&
+                        el.textContent.replace(/\\s+/g, ' ').trim() === target) return el;
+                }
+                for (const el of root.querySelectorAll('*')) {
+                    if (el.shadowRoot) {
+                        const r = find(el.shadowRoot);
+                        if (r) return r;
+                    }
+                }
+                return null;
+            }
+            const el = find(document);
+            if (!el) return false;
+            const c = el.closest('button, a, [role="button"], [role="tab"], [role="option"], li') || el;
+            c.scrollIntoView({block: 'center'});
+            ['mousedown', 'mouseup', 'click'].forEach(type =>
+                c.dispatchEvent(new MouseEvent(type, {bubbles: true, cancelable: true, composed: true, view: window})));
+            return true;
+        '''
+		boolean clicked = false
+		for (int i = 0; i < 30 && !clicked; i++) {
+			clicked = WebUI.executeJavaScript(js, [text])
+			if (!clicked) WebUI.delay(1)
+		}
+		assert clicked : "Element with text not found: " + text
+	}
+	@Keyword
+	def clickAnyTextNorm(String text) {
+		String js = '''
+        const norm = s => s.replace(/[أإآ]/g, 'ا').replace(/\\s+/g, ' ').trim();
+        const target = norm(arguments[0]);
+        function find(root) {
+            for (const el of root.querySelectorAll('*')) {
+                if (el.children.length === 0 && norm(el.textContent) === target) return el;
+            }
+            for (const el of root.querySelectorAll('*')) {
+                if (el.shadowRoot) {
+                    const r = find(el.shadowRoot);
+                    if (r) return r;
+                }
+            }
+            return null;
+        }
+        const el = find(document);
+        if (!el) return false;
+        const c = el.closest('button, a, [role="button"], [role="tab"], [role="option"], li') || el;
+        if (c.disabled || c.getAttribute('aria-disabled') === 'true') return false;
+        c.scrollIntoView({block: 'center'});
+        ['mousedown', 'mouseup', 'click'].forEach(type =>
+            c.dispatchEvent(new MouseEvent(type, {bubbles: true, cancelable: true, composed: true, view: window})));
+        return true;
+    '''
+		boolean clicked = false
+		for (int i = 0; i < 30 && !clicked; i++) {
+			clicked = WebUI.executeJavaScript(js, [text])
+			if (!clicked) WebUI.delay(1)
+		}
+		assert clicked : "Element with text not found or disabled: " + text
+	}
+	}
+	
