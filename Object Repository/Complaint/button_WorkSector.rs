@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_WorkSector</name>
+   <tag></tag>
+   <elementGuidId>d78c44fa-1dd8-4765-b967-dedf9fd430c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.sc-bwGlhP.czrqkE</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'العمل' or . = 'العمل')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a050eb02-dccd-4bbd-a21f-65d85b534a4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ac6e3382-cbe4-4d6a-aeaa-c633b965c853</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-bwGlhP czrqkE</value>
+      <webElementGuid>92239659-bb44-4099-8ec3-7c1555dac8b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>العمل</value>
+      <webElementGuid>6c773b86-887d-4d52-ac58-00a5b7a639b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/div[@class=&quot;sc-nfLit fAhRKJ&quot;]/div[@class=&quot;sc-giVnsT jblfGB&quot;]/button[@class=&quot;sc-bwGlhP czrqkE&quot;]</value>
+      <webElementGuid>d6f776fa-852f-455e-890c-4eca71764bad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>5862b16b-6b2e-42c9-a067-efb511c3bcf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/button</value>
+      <webElementGuid>227e8925-7289-4bc8-b501-f1b68614655a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الشكاوى'])[1]/following::button[1]</value>
+      <webElementGuid>e939c8b2-e82d-4e6d-9089-13736b694eb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تقديم البلاغ'])[1]/following::button[1]</value>
+      <webElementGuid>ab63f22e-d4d8-43c3-a9b2-15bbd9492092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الضمان الإجتماعي'])[1]/preceding::button[1]</value>
+      <webElementGuid>0608536d-4ecf-48ca-a07e-dabb3d98e286</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button</value>
+      <webElementGuid>3891dc06-3085-4310-94df-b942e6cf68a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'العمل' or . = 'العمل')]</value>
+      <webElementGuid>aaae2f02-1360-4fd3-a019-4a16ebe7ec17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

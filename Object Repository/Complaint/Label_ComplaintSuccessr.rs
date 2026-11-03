@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Label_ComplaintSuccessr</name>
+   <tag></tag>
+   <elementGuidId>61b35193-2104-4a4a-8e62-0b3a0e974a7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-xl-semibold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'تم ارسال الشكوى بنجاح' or . = 'تم ارسال الشكوى بنجاح')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e8b0aef8-f8f1-428b-b610-dac7ee6454c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-xl-semibold</value>
+      <webElementGuid>9fa2f968-381c-47d0-aec4-d9d70c281f9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>تم ارسال الشكوى بنجاح</value>
+      <webElementGuid>f485d765-e881-4011-b2db-584c2695dac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/div[@class=&quot;sc-frWhkP jibPPC&quot;]/div[@class=&quot;sc-hxAHhZ crmbiv&quot;]/main[@class=&quot;sc-aYaIB gNejhl&quot;]/div[@class=&quot;sc-eqUzNf iiGRhR&quot;]/div[@class=&quot;sc-cPiJYC crLRuf&quot;]/div[@class=&quot;sc-dAFaGQ dyizcW&quot;]/div[@class=&quot;sc-hqpNeT jeSmyb&quot;]/span[@class=&quot;text-xl-semibold&quot;]</value>
+      <webElementGuid>a534f91a-27de-4c82-93a0-076dc3ce4589</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/main/div/div[2]/div/div/span</value>
+      <webElementGuid>e846446c-671d-49e0-8efd-d383700df4a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='إنشاء طلب جديد'])[2]/following::span[1]</value>
+      <webElementGuid>ae98f77d-568c-4fe8-b67e-bc27a0477240</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تصنيف رؤى'])[1]/following::span[3]</value>
+      <webElementGuid>77ebfc67-2e78-4591-bc1b-b5c0a9747ccd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ملخص الطلب'])[1]/preceding::span[1]</value>
+      <webElementGuid>a1ec60d6-0b1d-444f-a35e-940045aecfe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='القطاع'])[1]/preceding::span[2]</value>
+      <webElementGuid>32146e8f-cdd0-454c-a001-7c0b26d8e2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='تم ارسال الشكوى بنجاح']/parent::*</value>
+      <webElementGuid>e56ba355-a6a1-4d5a-a094-e81cc64b106e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>f8bb7433-eb39-411d-b890-8f6f244a94b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'تم ارسال الشكوى بنجاح' or . = 'تم ارسال الشكوى بنجاح')]</value>
+      <webElementGuid>64451264-82e6-49cd-b16e-07c096332b2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

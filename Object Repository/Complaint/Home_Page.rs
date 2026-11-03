@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Home_Page</name>
+   <tag></tag>
+   <elementGuidId>f59d0c1b-5212-406a-89ea-70dd6c5dbbd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'الرئيسية' or . = 'الرئيسية')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c197dfac-a492-4e5e-934e-0a0caca19c47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الرئيسية</value>
+      <webElementGuid>f85ec7a3-066f-43d4-892b-2bb6c580fb29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[1]/div[@class=&quot;header laptop&quot;]/header[@class=&quot;sc-hsUGDF bulVPh&quot;]/main[@class=&quot;sc-aYaIB gNejhl header header-nav--full&quot;]/div[@class=&quot;sc-fvwkrp eSIxmI&quot;]/div[@class=&quot;sc-cvamBY bwLMPn&quot;]/div[@class=&quot;sc-gQSlcx ezFPcI&quot;]/a[@class=&quot;sc-evdVvv dQdyaK active active&quot;]/span[1]</value>
+      <webElementGuid>0319aa34-8d35-45fe-a76c-2a83cc27d0c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/header/main/div/div/div/a/span</value>
+      <webElementGuid>0911316c-f339-4261-bbd4-a5b6f9deaa88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الشكاوى والطلبات'])[1]/preceding::span[2]</value>
+      <webElementGuid>757feb35-9aa6-43a5-aee1-464030232f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='طلباتي'])[1]/preceding::span[3]</value>
+      <webElementGuid>15264a6c-16fc-426a-86d9-659958f36b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الرئيسية']/parent::*</value>
+      <webElementGuid>f9b7b07a-6eb0-4f57-98f2-9d1a86c7eb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>0f3f20ae-d396-4f66-ac0f-eed5c16bd975</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'الرئيسية' or . = 'الرئيسية')]</value>
+      <webElementGuid>926b0bf3-cc59-48e7-ac46-329c1fccbefe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
