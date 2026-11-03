@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_</name>
+   <tag></tag>
+   <elementGuidId>3f08251a-409b-4c63-8dcd-e5d3770444b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/nav/a[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>63468513-3e2c-40b2-941f-ddcf42935512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-dNcjNe cvjMSt</value>
+      <webElementGuid>1ef44903-cbfd-4186-bf3f-740f378c1c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/complaints</value>
+      <webElementGuid>3620d79e-22cc-4f37-bfff-c7f423bf41f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الشكاوى</value>
+      <webElementGuid>231ebb56-20db-49dd-8b3f-be1f9d4d3435</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/nav[@class=&quot;sc-SSKdL kimPZT&quot;]/a[@class=&quot;sc-dNcjNe cvjMSt&quot;]</value>
+      <webElementGuid>5e1d78cf-ac4b-4572-ac40-3e8c87c7a7df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/nav/a[5]</value>
+      <webElementGuid>70d69220-faa7-4d38-a4d2-d02fc4852067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تقديم البلاغ'])[1]/following::a[1]</value>
+      <webElementGuid>0ecd0e51-98b9-473b-bacb-d9031eb95115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التصعيد على المنصات'])[1]/following::a[2]</value>
+      <webElementGuid>f98a7077-2115-421e-8037-c405020b6aa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='العمل'])[1]/preceding::a[1]</value>
+      <webElementGuid>e89e4f66-3f15-4f14-b42a-534c3193e798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/complaints')]</value>
+      <webElementGuid>e07b00a2-1c89-4962-bdf6-e2847ebe9dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[5]</value>
+      <webElementGuid>2ba0c9e3-0aad-4b0e-8b0d-fd6954b6ad70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/complaints' and (text() = 'الشكاوى' or . = 'الشكاوى')]</value>
+      <webElementGuid>1fe44b7f-2781-45bd-9dff-f57d6d876537</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
