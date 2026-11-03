@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_checkbox-container-e_--f96-2bf</name>
+   <tag></tag>
+   <elementGuidId>3d68551f-210d-459f-8e01-1368f8d32b6d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.checkbox.checkbox--brand.checkbox--md > div.checkbox-main > div.checkbox-main__content > div.checkbox-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>20da32d4-7eb6-47b0-811f-2d022ef30137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox-container</value>
+      <webElementGuid>ae2b83df-9ca8-4318-a6c9-dea46259835b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/label[@class=&quot;checkbox checkbox--brand checkbox--md&quot;]/div[@class=&quot;checkbox-main&quot;]/div[@class=&quot;checkbox-main__content&quot;]/div[@class=&quot;checkbox-container&quot;]</value>
+      <webElementGuid>a947abe2-c13d-4062-abe2-498c6c79ee3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/SelfService/Page_-/dga-checkbox__hydrated-Page_--f96</value>
+      <webElementGuid>c5ad4c15-0c26-446a-8174-e12a7d685fe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>babfe025-cb93-443c-b545-b5b49cbf1208</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='']/parent::*</value>
+      <webElementGuid>79ee0031-ddb4-4473-8cdd-9204cabe9b3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
