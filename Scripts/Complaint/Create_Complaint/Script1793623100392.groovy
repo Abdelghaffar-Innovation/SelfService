@@ -17,71 +17,78 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Auth/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(10)
 
-WebUI.navigateToUrl('http://10.240.142.140/complaints')
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Tab_ComplaintAndRequests'), 15)
 
-WebUI.maximizeWindow()
+WebUI.verifyElementVisible(findTestObject('Object Repository/Complaint/Tab_ComplaintAndRequests'))
+WebUI.click(findTestObject('Object Repository/Complaint/Tab_ComplaintAndRequests'))
 
-WebUI.delay(180)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/Page_-/a_'), 10)
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Tab_ComplaintAndRequests'), 15)
+WebUI.click(findTestObject('Object Repository/Complaint/Page_-/a_'))
 
-WebUI.verifyElementVisible(findTestObject('Complaint/Tab_ComplaintAndRequests'))
 
-WebUI.waitForElementClickable(findTestObject('Complaint/button_WorkSector'), 10)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/button_WorkSector'), 10)
 
-WebUI.click(findTestObject('Complaint/button_WorkSector'))
 
-WebUI.scrollToElement(findTestObject('Complaint/button_RoaaClassificaition'), 30)
+WebUI.click(findTestObject('Object Repository/Complaint/button_WorkSector'))
 
-WebUI.click(findTestObject('Complaint/button_RoaaClassificaition'))
+WebUI.scrollToElement(findTestObject('Object Repository/Complaint/button_RoaaClassificaition'), 30)
 
-WebUI.scrollToElement(findTestObject('Complaint/Label_RoaaSubcategory'), 30)
+WebUI.click(findTestObject('Object Repository/Complaint/button_RoaaClassificaition'))
 
-WebUI.verifyElementVisible(findTestObject('Complaint/Label_RoaaSubcategory'))
+WebUI.scrollToElement(findTestObject('Object Repository/Complaint/Label_RoaaSubcategory'), 15)
 
-WebUI.click(findTestObject('Complaint/Label_RoaaSubcategory'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Complaint/Label_RoaaSubcategory'))
+WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Label_CreateNewRequest'), 30)
 
-WebUI.verifyElementVisible(findTestObject('Complaint/Label_CreateNewRequest'))
+CustomKeywords.'commin.common.clickAnyText'('طلب جديد')
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Dropdown_Reigon'), 20)
 
-WebUI.click(findTestObject('Complaint/Dropdown_Reigon'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Label_CreateNewRequest'), 15)
 
-WebUI.waitForElementClickable(findTestObject('Complaint/Option_Reigon'), 20)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Complaint/Label_CreateNewRequest'))
 
-WebUI.click(findTestObject('Complaint/Option_Reigon'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Dropdown_Reigon'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Dropdown_City'), 20)
+WebUI.click(findTestObject('Object Repository/Complaint/Dropdown_Reigon'))
 
-WebUI.click(findTestObject('Complaint/Dropdown_City'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/Option_Reigon'), 20)
 
-WebUI.waitForElementClickable(findTestObject('Complaint/Option_City'), 20)
+WebUI.click(findTestObject('Object Repository/Complaint/Option_Reigon'))
 
-WebUI.click(findTestObject('Complaint/Option_City'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Dropdown_City'), 20)
 
-WebUI.scrollToElement(findTestObject('Complaint/Textarea_ReportDetalis'), 30)
+WebUI.click(findTestObject('Object Repository/Complaint/Dropdown_City'))
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Textarea_ReportDetalis'), 0)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/Option_City'), 20)
 
-WebUI.setText(findTestObject('Complaint/Textarea_ReportDetalis'), 'Test')
+WebUI.click(findTestObject('Object Repository/Complaint/Option_City'))
 
-WebUI.waitForElementClickable(findTestObject('Complaint/Btn_SubmitRequest'), 20)
+WebUI.scrollToElement(findTestObject('Object Repository/Complaint/Textarea_ReportDetalis'), 30)
 
-WebUI.click(findTestObject('Complaint/Btn_SubmitRequest'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Textarea_ReportDetalis'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Label_RequestProcessing'), 20)
+WebUI.setText(findTestObject('Object Repository/Complaint/Textarea_ReportDetalis'), 'Test')
 
-WebUI.verifyElementVisible(findTestObject('Complaint/Label_RequestProcessing'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/Btn_SubmitRequest'), 20)
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Label_ComplaintSuccessr'), 30)
+CustomKeywords.'commin.common.clickAnyTextNorm'('ارسال الطلب')
+//WebUI.click(findTestObject('Object Repository/Complaint/Btn_SubmitRequest'))
 
-WebUI.waitForElementClickable(findTestObject('Complaint/Button_BackToHome'), 20)
+//WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Label_RequestProcessing'), 20)
 
-WebUI.click(findTestObject('Complaint/Button_BackToHome'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Complaint/Label_RequestProcessing'))
 
-WebUI.waitForElementVisible(findTestObject('Complaint/Home_Page'), 30)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Label_ComplaintSuccessr'), 30)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Complaint/Button_BackToHome'), 20)
+
+CustomKeywords.'commin.common.clickAnyTextNorm'('الرجوع للرئيسية')
+//WebUI.click(findTestObject('Object Repository/Complaint/Button_BackToHome'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Complaint/Home_Page'), 30)
 

@@ -10,20 +10,24 @@
          <value>#btn-rjxbpc0vx > span.dga-btn-label</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'طلب جديد' or . = 'طلب جديد')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//span[(text() = 'طلب جديد' or . = 'طلب جديد')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>52643adc-6e21-4850-9edf-4f47a6358897</webElementGuid>
+      <webElementGuid>6eb4658a-d129-40d6-8f3e-c1885b17a654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dga-btn-label</value>
-      <webElementGuid>565b0d7a-cc37-4edc-ba18-e9ef4ea5d02c</webElementGuid>
+      <webElementGuid>f3cd4c06-5fa2-4b6c-b544-9732ca8b7f51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,15 +43,15 @@
       <name>text</name>
       <type>Main</type>
       <value>طلب جديد</value>
-      <webElementGuid>b8b4b9df-653b-454e-a351-882a1fe7bb9b</webElementGuid>
+      <webElementGuid>844c4c00-1990-425f-9cf6-199288b7efc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/button[@id=&quot;btn-rjxbpc0vx&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
-      <webElementGuid>59d4fde0-d08c-46a2-8b8c-c412f5efa3e3</webElementGuid>
+      <value>//button[@id=&quot;btn-rjxbpc0vx&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
+      <webElementGuid>0bcdb809-f009-4354-adb0-a199bf3c1745</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='btn-rjxbpc0vx']/span</value>
-      <webElementGuid>8a8c9b50-9cf1-4f67-88c0-be44b492e435</webElementGuid>
+      <webElementGuid>c7c9e9e3-5d19-4745-9259-ffd8e6185e64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='طلب جديد']/parent::*</value>
-      <webElementGuid>733ff311-0850-48fd-923c-7b29ebdc9931</webElementGuid>
+      <webElementGuid>e26f360d-7c39-4e94-a79f-36dfbc4335f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'طلب جديد' or . = 'طلب جديد')]</value>
-      <webElementGuid>2a23f358-6912-46d2-8922-fb76d61ef427</webElementGuid>
+      <webElementGuid>c12b5a47-20d5-4b28-86d9-bc113bc7be34</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

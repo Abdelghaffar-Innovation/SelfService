@@ -17,12 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory
+
+import org.glassfish.tyrus.core.TyrusWebSocketEngine.TyrusWebSocketEngineBuilder
 import org.openqa.selenium.By
 import com.kms.katalon.core.webui.driver.DriverFactory
 import org.openqa.selenium.By
 
 WebUI.openBrowser('')
-
+WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://qa-selfservice.hrsd.gov.sa/')
 
 WebUI.setText(findTestObject('Object Repository/SelfService/Page_/input__nationalID'), '1054495781')
@@ -35,10 +37,8 @@ WebUI.delay(15)
 CustomKeywords.'commin.common.clickDeep'("button[aria-label='اختر']")
 
 WebUI.click(findTestObject('Object Repository/SelfService/Page_-/div_checkbox-container-e_--f96-2bf'))
+WebUI.delay(5)
+
 CustomKeywords.'commin.common.clickDeep'("button[aria-label='اختر']")
-
-
-//WebUI.click(findTestObject('Object Repository/SelfService/Page_-/button_-e_--676-58c'))
-
-//WebUI.closeBrowser()
+WebUI.delay(10)
 
