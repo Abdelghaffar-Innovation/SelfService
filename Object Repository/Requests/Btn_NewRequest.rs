@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_NewRequest</name>
+   <tag></tag>
+   <elementGuidId>861b527a-0c34-4582-a188-94fa1801114f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[aria-label=&quot;طلب جديد&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'طلب جديد' or . = 'طلب جديد')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a01fe52a-9586-4f0d-a7c9-1f646672e8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dga-btn-label</value>
+      <webElementGuid>9b31418f-0a2a-4dd2-95b0-4e0b9f2dc7d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>طلب جديد</value>
+      <webElementGuid>c0d7cdea-fa96-41ea-97f2-74d4a929669a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@id=&quot;btn-bbwyu7m4l&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
+      <webElementGuid>740189f6-4a8c-4542-8f2a-be87e6d82320</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Requests/frame_NewRequest</value>
+      <webElementGuid>c24b296d-54ee-414d-b289-1073950eca13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ba1af431-2b3f-4feb-9513-4b71e3656a55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btn-bbwyu7m4l']/span</value>
+      <webElementGuid>d32b412d-ca0d-4840-b06e-3fde655ecb24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='طلب جديد']/parent::*</value>
+      <webElementGuid>13079b9d-cb46-459d-89e6-412cdcf53c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'طلب جديد' or . = 'طلب جديد')]</value>
+      <webElementGuid>b0ce12d2-659c-4daf-99db-230e4794f712</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

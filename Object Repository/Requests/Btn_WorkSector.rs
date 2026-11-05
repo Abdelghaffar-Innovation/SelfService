@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_WorkSector</name>
+   <tag></tag>
+   <elementGuidId>7786401c-f13d-4f67-998e-330494a1bbca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.sc-ivgKhA.cQLZbR.text-xs-semibold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'العمل' or . = 'العمل')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>de83ec97-bc55-4a0f-b679-8b0a61f0d562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-ivgKhA cQLZbR text-xs-semibold </value>
+      <webElementGuid>769c4032-c6af-41ee-9ec7-10a1c159796f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>العمل</value>
+      <webElementGuid>8df11ed0-74ce-47e9-a041-3e1587ee80ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/div[@class=&quot;sc-nfLit fAhRKJ&quot;]/div[@class=&quot;sc-giVnsT jblfGB&quot;]/button[@class=&quot;sc-bwGlhP czrqkE&quot;]/span[@class=&quot;sc-ivgKhA cQLZbR text-xs-semibold&quot;]</value>
+      <webElementGuid>c62d20e8-0beb-4505-9a18-127ee4959af1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/button/span</value>
+      <webElementGuid>b0a20729-267a-4f57-a294-6104076440c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الشكاوى'])[1]/following::span[1]</value>
+      <webElementGuid>bfcc5e66-110d-430d-8bd6-83f0cbf3d9a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تقديم البلاغ'])[1]/following::span[2]</value>
+      <webElementGuid>0c5acba9-298f-4bc8-904b-aafa22ac1173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الضمان الإجتماعي'])[1]/preceding::span[3]</value>
+      <webElementGuid>723f0df4-a341-42a1-a9bb-07dd9b6ed8e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قطاع التنمية'])[1]/preceding::span[6]</value>
+      <webElementGuid>832488bd-b267-46a4-8b67-225b5528c36b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='العمل']/parent::*</value>
+      <webElementGuid>daf8e1fc-85d1-4071-b40d-3b0d73aef135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/button/span</value>
+      <webElementGuid>5cdadae9-b907-488b-8e9a-b02d0ac77cf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'العمل' or . = 'العمل')]</value>
+      <webElementGuid>dcc3b98e-82b7-413a-bfb1-016f70f942b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

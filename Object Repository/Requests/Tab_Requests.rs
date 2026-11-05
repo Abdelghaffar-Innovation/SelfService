@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tab_Requests</name>
+   <tag></tag>
+   <elementGuidId>0a0b676f-6a83-4cf4-a139-cc9f05154c0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.sc-dNcjNe.cvjMSt > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'الطلبات' or . = 'الطلبات')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fd8b7242-c13d-4546-9a77-55eae62e5bf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الطلبات</value>
+      <webElementGuid>77d6550b-670f-4477-9cf0-19a168208f10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/nav[@class=&quot;sc-SSKdL kimPZT&quot;]/a[@class=&quot;sc-dNcjNe cvjMSt&quot;]/span[1]</value>
+      <webElementGuid>591469f4-e4c2-4f31-97f9-0fa918916fe5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/nav/a/span</value>
+      <webElementGuid>0476b2b0-93cb-4175-b858-e068eaf548a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='حيَّاك الله محمود'])[1]/following::span[1]</value>
+      <webElementGuid>1511496f-a020-442f-b2a9-4aebb13fc25a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مم'])[1]/following::span[2]</value>
+      <webElementGuid>d999e097-2db7-4c16-8d83-d94d4220fdae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='الإستفسارات'])[1]/preceding::span[1]</value>
+      <webElementGuid>4646534b-b7c4-4e99-82cc-977410ca8544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='التصعيد على المنصات'])[1]/preceding::span[2]</value>
+      <webElementGuid>fddaac15-1350-4dea-86cd-2434cec5cd11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الطلبات']/parent::*</value>
+      <webElementGuid>99095557-9323-4b61-8f5e-917c4f7d6872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/a/span</value>
+      <webElementGuid>3647359d-9db7-463f-9ce0-21b8896540d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'الطلبات' or . = 'الطلبات')]</value>
+      <webElementGuid>7d3f1ecf-9654-497e-b699-fee928e54ae8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
