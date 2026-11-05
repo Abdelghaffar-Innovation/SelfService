@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_BackHome</name>
+   <tag></tag>
+   <elementGuidId>379e017d-3d33-486c-b77c-aa7e7f40c557</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[aria-label=&quot;الرجوع للرئيسية&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>67fe43cc-b189-40a9-9478-b2c67af2e5c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dga-btn-label</value>
+      <webElementGuid>02ac62d4-b226-4f50-8ffb-35a32490cb33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الرجوع للرئيسية</value>
+      <webElementGuid>c632d89b-2d7c-486e-95be-e1123680b4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@id=&quot;btn-cfyqpu3c2&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
+      <webElementGuid>a792b6ff-e40b-41ba-9732-03814654eb7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Requests/iFrame_BaackHome</value>
+      <webElementGuid>e618274e-49c8-4a46-9fb8-d340bd8dcaba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>98699e38-5e07-44eb-8d26-ae7379fd8d1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btn-cfyqpu3c2']/span</value>
+      <webElementGuid>5a167ad2-9691-4bed-a773-a50801bb0315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='الرجوع للرئيسية']/parent::*</value>
+      <webElementGuid>915a3a38-1527-4793-b968-48e26bccdb84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'الرجوع للرئيسية' or . = 'الرجوع للرئيسية')]</value>
+      <webElementGuid>f696efd7-5009-4cda-ae5d-e8b799742e98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

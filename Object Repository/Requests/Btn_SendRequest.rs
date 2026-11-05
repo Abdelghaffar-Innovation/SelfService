@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_SendRequest</name>
+   <tag></tag>
+   <elementGuidId>71b2d1e6-0b94-4982-a308-d191cdae997c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[aria-label=&quot;إرسال الطلب&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='إرسال الطلب']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0dc6e28d-82ac-4d71-9b8b-26a7aa8bed31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dga-btn-label</value>
+      <webElementGuid>53dc74a4-bf6d-4a33-806e-520217c6b196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>إرسال الطلب</value>
+      <webElementGuid>6f1fee84-f5c8-4ca7-97f7-fc3392422eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@id=&quot;btn-sc6tuzjw9&quot;]/span[@class=&quot;dga-btn-label&quot;]</value>
+      <webElementGuid>66f72d89-0d57-4e44-9c1d-52a48c4021cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Requests/iFrame_Sendrequest</value>
+      <webElementGuid>41bf61e0-e545-481c-9831-5f17fd179a29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6eed9dc4-f27d-4b85-a332-2a049ddaed61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='btn-sc6tuzjw9']/span</value>
+      <webElementGuid>2ae0f933-8ffb-4a2d-b4b4-80380d0025dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='إرسال الطلب']/parent::*</value>
+      <webElementGuid>5dca2197-caa4-4f86-9f82-acbf4fb00d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'إرسال الطلب' or . = 'إرسال الطلب')]</value>
+      <webElementGuid>9db438f6-a3f4-4499-8a90-db89eefc2385</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
