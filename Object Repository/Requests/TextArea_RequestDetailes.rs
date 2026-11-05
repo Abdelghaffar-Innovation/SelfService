@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextArea_RequestDetailes</name>
+   <tag></tag>
+   <elementGuidId>b4857fc8-c933-4db3-b058-9580ec60a5c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-iMWBWc.MwCBH.card.flex-column.card__action--default.sc-bpUCxw.iVCfxM.textarea.textarea--lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[contains(@class,'textarea__field')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b3448d1b-d6d0-443a-8403-55d8e3ac83e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-iMWBWc MwCBH card flex-column card__action--default sc-bpUCxw iVCfxM textarea textarea--lg </value>
+      <webElementGuid>ee5b9054-4c58-4abe-930b-df5fe23b93b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-CCulN cuQqLu&quot;]/div[@class=&quot;sc-iVDteI cNnRVQ&quot;]/div[@class=&quot;sc-frWhkP jibPPC&quot;]/div[@class=&quot;sc-hxAHhZ crmbiv&quot;]/main[@class=&quot;sc-aYaIB gNejhl&quot;]/div[@class=&quot;sc-eqUzNf iiGRhR&quot;]/div[@class=&quot;sc-fUnNpA bYDgFW&quot;]/form[1]/div[@class=&quot;sc-feUYzb jSByUv&quot;]/div[@class=&quot;sc-iMWBWc MwCBH card flex-column card__action--default sc-iQbOXA fVnytK&quot;]/div[@class=&quot;sc-kbovfZ iXiRdF&quot;]/div[@class=&quot;sc-iMWBWc MwCBH card flex-column card__action--default sc-bpUCxw iVCfxM textarea textarea--lg&quot;]</value>
+      <webElementGuid>786c8329-b60c-4326-8ca9-b9074a627fa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[2]/main/div/div/form/div/div[4]/div/div</value>
+      <webElementGuid>2ace6791-e372-4616-ad65-993cc272f0d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::div[2]</value>
+      <webElementGuid>58fafff8-5382-4323-97a3-679609196ee5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA_Document_under_3MB.docx'])[1]/preceding::div[3]</value>
+      <webElementGuid>bc23e1ec-b15b-495b-8879-f7145de43984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA_Document_under_3MB'])[1]/preceding::div[3]</value>
+      <webElementGuid>5033477e-922e-4d0f-a094-9f026ad13361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div</value>
+      <webElementGuid>56453a64-e479-4837-827e-e80fc4ba6e36</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
